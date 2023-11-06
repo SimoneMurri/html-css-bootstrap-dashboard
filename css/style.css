@@ -1,0 +1,63 @@
+body {
+    max-width: 576px;
+}
+
+.one {
+    width: 45px;
+    height: 760px;
+    background-color: black;
+    float: left;
+}
+
+.height {
+    height: 3.5rem;
+}
+
+.bg-blue {
+    width: 100px;
+    height: 40%;
+    background-color: rgb(24, 114, 229);
+}
+
+.red-top {
+    background-color: rgb(24, 114, 229);
+    height: 300px;
+}
+
+.prossime-classi {
+    margin: 1rem 1rem 1rem 4rem;
+    background-color: gray;
+    height: 700px;
+    border-radius: 10px;
+}
+
+.faq {
+    background-color: gray;
+    margin: 1rem 1rem 1rem 4rem;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.todo {
+    background-color: gray;
+    margin: 1rem 1rem 1rem 4rem;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.utenti-attivi {
+    background-color: gray;
+    margin: 1rem 1rem 1rem 4rem;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.bg-danger {
+    height: 4rem;
+}
+
+@media  screen and (min-width: 576px) {
+    body {
+        max-width: 768px;
+    }
+}
