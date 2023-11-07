@@ -1,12 +1,13 @@
 body {
-    max-width: 576px;
+    max-width: 1100px;
 }
 
-.one {
-    width: 45px;
-    height: 760px;
-    background-color: black;
-    float: left;
+nav {
+    position: fixed;
+}
+
+.width {
+    max-width: 100%;
 }
 
 .height {
@@ -21,39 +22,164 @@ body {
 
 .red-top {
     background-color: rgb(24, 114, 229);
-    height: 300px;
+    height: 320px;
+    padding-left: 4rem;
+    padding-top: 5rem;
 }
 
 .prossime-classi {
     margin: 1rem 1rem 1rem 4rem;
-    background-color: gray;
-    height: 700px;
-    border-radius: 10px;
+    height: 406px;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    padding: 0rem 1rem;
+}
+
+.fa-pen {
+    font-size: 10px;
+}
+
+img {
+    width: 20px;
+}
+
+.class {
+    font-size: 10px;
+}
+
+.process {
+    font-size: 12px;
 }
 
 .faq {
-    background-color: gray;
     margin: 1rem 1rem 1rem 4rem;
     height: 200px;
+    border-radius: 7px;
+    max-width: 100%;
+}
+
+.new {
+    color: white;
+}
+
+form {
+    width: 440px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+.plane-blaze {
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
+    line-height: 15px;
+    height: 18px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+}
+
+.bg {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 20px;
+    width: 40px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.bg-plus {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.fa-angles-right {
+    color: white;
+    font-size: 15px;
+}
+
+.app {
+    color: white;
+    font-size: 10px;
+}
+
+.plane {
+    color: white;
+    font-size: 10px;
 }
 
 .todo {
-    background-color: gray;
     margin: 1rem 1rem 1rem 4rem;
     height: 200px;
     border-radius: 10px;
+    max-width: 100%;
+}
+
+.kickoff {
+    width: 100px;
 }
 
 .utenti-attivi {
-    background-color: gray;
+    border: 1px solid lightgray;
     margin: 1rem 1rem 1rem 4rem;
     height: 450px;
     border-radius: 10px;
+    padding: 1rem;
 }
 
-.bg-danger {
+.sidenav {
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    left: 0;
+    top: 66px;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+.container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+}
+
+.sticky {
     height: 4rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.padding {
+    padding: 0rem 1rem;
+    color: white;
+}
+
+.padding-bottom {
+    padding-bottom: 38rem;
+}
+
+.fa-bell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.font-size {
+    width: 200px;
+}
+
+p {
+    font-size: 10px;
 }
 
 @media  screen and (min-width: 576px) {

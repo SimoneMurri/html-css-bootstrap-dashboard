@@ -5,23 +5,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <div class="bg-danger text-dark"></div>
-    </header>
+    <div class="container">
+    <nav class="navbar bg-white position-fixed width">
+        <div class="d-flex justify-content-start">
+          <a class="navbar-brand" href="#">
+            <img class="ps-1" src="./img/mobile-logo.png" alt="Bootstrap" width="40" height="40">
+          </a>
+          <form class="d-flex" role="search">
+            <input class="form-control bg-secondary-subtle" type="search" placeholder="Prova a cercare: lezioni di Laravel" aria-label="Search">
+          </form>
+          <i class="fa-solid fa-bell"></i>
+        </div>
+    </nav>
+    </div>
+    <section class="sidenav">
+        <div class="padding-bottom">
+        <i class="fa-solid fa-house padding"></i>
+        <i class="fa-solid fa-chart-simple padding"></i>
+        <i class="fa-solid fa-signal padding"></i>
+        </div>
+        <div>
+            <i class="fa-solid fa-gear padding"></i>
+        </div>
+    </section>
     <main>
-        <header class="one position-fixed">
-        </header>
-        <section>
-            <div class="red-top"></div>
-            <div class="prossime-classi"></div>
-            <div class="faq"></div>
-            <div class="todo"></div>
-            <div class="utenti-attivi"></div>
-        </section>
+        <div class="red-top">
+            <span class="new">Nuovo Studente <i class="fa-regular fa-square-plus ps-2"></i></span>
+            <div>
+                <h3 class="text-white pt-3">Boolean</h3> <div class="plane-blaze"><span class="plane">Piano Blaze</span></div>
+            </div>
+            <div class="d-flex flex-row align-items-center pb-4">
+                <div class="bg">
+                    <span class="app">3 app</span>
+                </div>
+                <i class="fa-solid fa-angles-right"></i>
+                <div class="bg-plus">
+                    <span class="app">+</span>
+                </div>
+            </div>
+            <span class="text-white">Studenti online negli ultimi 30 minuti</span>
+            <h1 class="text-white pt-3">125</h1>
+        </div>
+        <div class="prossime-classi">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th width="50%" scope="col">Nome</th>
+                    <th width="30%" scope="col">Stato</th>
+                    <th scope="col">Azioni</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><img src="./img/class-avatar.jpg" alt=""> <span class="class ps-2">Classe 75</span></th>
+                    <td><div style="width: 3rem;" class="bg-success text-white rounded-2 text-center"><span class="process">Done</span></div></td>
+                    <td><i class="fa-solid fa-pen border border-black p-2"></i></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img src="./img/class-avatar.jpg" alt=""> <span class="class ps-2">Classe 76</span></th>
+                    <td><div style="width: 3rem;" class="bg-success text-white rounded-2 text-center"><span class="process">Done</span></div></td>
+                    <td><i class="fa-solid fa-pen border border-black p-2"></i></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img src="./img/class-avatar.jpg" alt=""> <span class="class ps-2">Classe 77</span></th>
+                    <td><div style="width: 4rem;" class="bg-warning text-white rounded-2 text-center"><span class="process">Process</span></div></td>
+                    <td><i class="fa-solid fa-pen border border-black p-2"></i></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img src="./img/class-avatar.jpg" alt=""> <span class="class ps-2">Classe 78</span></th>
+                    <td><div style="width: 3rem;" class="bg-success text-white rounded-2 text-center"><span class="process">Done</span></div></td>
+                    <td><i class="fa-solid fa-pen border border-black p-2"></i></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img src="./img/class-avatar.jpg" alt=""> <span class="class ps-2">Classe 79</span></th>
+                    <td><div style="width: 3rem;" class="bg-danger text-white rounded-2 text-center"><span class="process">Failed</span></div></td>
+                    <td><i class="fa-solid fa-pen border border-black p-2"></i></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img src="./img/class-avatar.jpg" alt=""> <span class="class ps-2">Classe 80</span></th>
+                    <td><div style="width: 3rem;" class="bg-success text-white rounded-2 text-center"><span class="process">Done</span></div></td>
+                    <td><i class="fa-solid fa-pen border border-black p-2"></i></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img src="./img/class-avatar.jpg" alt=""> <span class="class ps-2">Classe 81</span></th>
+                    <td><div style="width: 3rem;" class="bg-danger text-white rounded-2 text-center"><span class="process">Failed</span></div></td>
+                    <td><i class="fa-solid fa-pen border border-black p-2"></i></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img src="./img/class-avatar.jpg" alt=""> <span class="class ps-2">Classe 82</span></th>
+                    <td><div style="width: 3rem;" class="bg-success text-white rounded-2 text-center"><span class="process">Done</span></div></td>
+                    <td><i class="fa-solid fa-pen border border-black p-2"></i></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="faq">
+            <div class="card">
+                <div class="card-header">
+                  F.A.Q.
+                </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><button class="btn btn-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Come aggiungere un nuovo studente?
+                      </button></li>
+                      <li class="list-group-item"><button class="btn btn-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Come posso accedere alle informazioni del mio account?
+                      </button></li>
+                      <li class="list-group-item"><button class="btn btn-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Posso usare questa dashboard da mobile?
+                      </button></li>
+                    </ul>
+                  </div>
+              </div>
+        </div>
+        <div class="todo">
+            <div class="card">
+                <div class="card-header">
+                  Todo
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><input type="checkbox" id="scales" name="scales"/>
+                    <label for="scales"></label>Kickoff nuove classi</li>
+                  <li class="list-group-item"><input type="checkbox" id="scales" name="scales"/>
+                    <label for="scales"></label>Lezione su Bootstrap 5 in classe #75</li>
+                  <li class="list-group-item"><input type="checkbox" id="scales" name="scales"/>
+                    <label for="scales"></label>Controllare username github studenti</li>
+                </ul>
+              </div>
+        </div>
+        <div class="utenti-attivi">
+            <div class="card large">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><img class="font-size" src="./img/stats.jpeg" alt="">
+                  <span>Utenti attivi</span>
+                  <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p></li>
+                  <li class="list-group-item">Gennaio: 1200</li>
+                  <li class="list-group-item">Febbraio: 800</li>
+                  <li class="list-group-item">Marzo: 1500</li>
+                  <li class="list-group-item"><p><a href="#" class="link-underline-primary">Visualizza report approfondito</a></p></li>
+                </ul>
+              </div>
+        </div>
     </main>
 </body>
 </html>
